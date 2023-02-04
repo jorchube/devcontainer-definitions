@@ -18,3 +18,4 @@
         ```bash
         systemctl --user enable --now podman.socket
         ```
+* `SELinux`'s `enforcing` policy may lead to errors accessing files in the container.
