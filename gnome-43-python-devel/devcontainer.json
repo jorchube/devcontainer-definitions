@@ -1,5 +1,5 @@
 {
-	"name": "gnome-43",
+	"name": "gnome-43-python-devel",
 
 	"image": "quay.io/gnome_infrastructure/gnome-runtime-images:gnome-43",
 
