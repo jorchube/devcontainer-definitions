@@ -7,7 +7,5 @@
 
 	"postCreateCommand": "bash .devcontainer/on_create.sh",
 
-	"remoteUser": "root",
-
-	"containerUser": "build"
+	"remoteUser": "root"
 }
