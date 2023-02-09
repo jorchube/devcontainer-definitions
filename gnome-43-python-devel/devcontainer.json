@@ -7,5 +7,15 @@
 
 	"postCreateCommand": "bash .devcontainer/on_create.sh",
 
-	"remoteUser": "root"
+	"remoteUser": "root",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.isort"
+			]
+		}
+	}
 }
