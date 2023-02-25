@@ -2,7 +2,7 @@
 
 set -e
 
-dnf -y install vim make python3-devel
+dnf -y install git vim make pip
 pip install pipenv
 
 echo ". /usr/share/git-core/contrib/completion/git-prompt.sh" >> ~/.bashrc
