@@ -1,5 +1,5 @@
 {
-	"name": "gnome-43-python-devel",
+	"name": "python-devel",
 
 	"image": "quay.io/fedora/fedora:latest",
 
