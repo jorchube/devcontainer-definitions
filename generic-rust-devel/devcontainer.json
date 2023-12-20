@@ -15,5 +15,8 @@
 				"rust-lang.rust-analyzer",
 			]
 		}
+	},
+	"containerEnv": {
+		"CARGO_INSTALL_ROOT": "/usr/local"
 	}
 }
