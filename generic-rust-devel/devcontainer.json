@@ -1,0 +1,19 @@
+{
+	"name": "rust-devel",
+
+	"image": "quay.io/fedora/fedora:latest",
+
+	"shutdownAction": "stopContainer",
+
+	"postCreateCommand": "bash .devcontainer/on_create.sh",
+
+	"remoteUser": "root",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+			]
+		}
+	}
+}
