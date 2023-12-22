@@ -9,6 +9,7 @@
     ```json
     "dev.containers.dockerPath": "/app/tools/podman/bin/podman-remote"
     ```
+* Allow vscode to access `xdg-run/podman` in filesystem permissions.
 * The `podman.socket` service needs to be running at the user level.
     * Start it with:
         ```bash
